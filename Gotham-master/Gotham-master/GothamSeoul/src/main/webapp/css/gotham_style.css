@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/* display:position:text-align*/
+/* text */
+/* box */
+/* margin/padding */
+a:link, a:visited, a:hover {
+	text-decoration: none;
+}
+body {
+	text-align: center;
+	font-size: 1vw;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}
+#header {
+	position: relative;
+	z-index: 2;
+	line-height: 10vh;
+	background-color: rgb(0, 26, 51);
+	box-shadow: 0 0.2vw 10px rgba(0, 0, 51, 0.3);
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+#title_container a {
+	color: white;
+	font-size: 2vw;
+}
+#site_description_container {
+	line-height: 2;
+}
+#site_description {
+	overflow: hidden;
+	color: white;
+	font-size: 1vw;
+	background-color: rgb(0, 26, 51);
+	max-height: 0;
+	transition: max-height 0.5s ease-out;
+}
+#title_image_container img{
+	width: 40vh;
+	height: 17vh;
+}
+#site_introduction {
+	text-align: left;
+}
+#site_map {
+	text-align: left;
+}
+#site_description_toggle {
+	color: white;
+	background-color: rgb(0, 26, 51);
+	height: 3vh;
+}
+#site_description_toggle:hover {
+	color: rgb(253, 197, 54);
+	background-color: #33485C;
+}
+#site_description_toggle i {
+	position: absolute;
+	bottom: 1px;
+}
+.custom_container {
+	padding: 0 1vw 0 0;
+}
+#main_container {
+	margin: 0;
+}
+#sidebar_1 {
+	z-index: 1;
+	background-color: white;
+	box-shadow: -0.2vw 0 10px rgba(0, 0, 51, 0.3) inset;
+	height: 100vh;
+	padding: 0;
+}
+#content_title_1, #content_title_2 {
+	position: absolute;
+	right: 0;
+	font-size: 0.8vw;
+	background-color: rgb(223, 223, 221);
+	box-shadow: 0 0.2vw 10px rgba(0, 0, 51, 0.3);
+	width: 70%;
+	height: 5vw;
+	padding: 0.7vw;
+}
+#content_title_1 {
+	top: 0.8vw;
+	border-radius: 0.9vw 0 0 1vw;
+	border-left: 1vw solid rgb(168, 79, 76);
+}
+#content_title_2 {
+	top: 6.5vw;
+	border-radius: 0.9vw 0 0 1vw;
+	border-left: 1vw solid rgb(253, 197, 54);
+}
+#sidebar_2 {
+	z-index: 1;
+	background-color: white;
+	height: 100vh;
+}
+.item_title {
+	margin: 2vw 0;
+}
+.item_title hr, .item_title p{
+	margin: 0;
+}
+.item_index {
+	font-size: 4vw;
+}
+#submain {
+	background-color: white;
+	box-shadow: 0.2vw 0 10px rgba(0, 0, 51, 0.3);
+	height: 10vh;
+}
+#search_container {
+	line-height: 5vw;
+	font-size: 1.5vw;
+	width: 100%;
+	height: 5vw;
+}
+#search_input_district {
+	display: inline-block;
+}
+#search_input_detail {
+	width: 400px;
+	height: 2vw;
+}
+#dropdownMenu1 {
+	line-height: 2vw;
+	background-color: white;
+	border: 1px solid gray;
+	border-radius: 0;
+	width: 7vw;
+	height: 2.1vw;
+	margin: 0 0 2px 0;
+	padding: 0;
+}
+#map_container {
+	height: 80vh;
+	width: auto;
+}
+.leaflet.html-widget {
+	height: 80vh;
+}
+#footer {
+	color: white;
+	background-color: rgb(40, 40, 62);
+	height: 100px;
+	width: 100%;
+	margin: 0;
+	padding: 20px 0 0 0;
+}
